@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">纸牌游戏</string>
+    <string name="duel_with_wan">联网对战</string>
+    <string name="duel_with_wlan">WLAN联机</string>
+    <string name="custom">自定义</string>
+    <string name="refresh">刷新</string>
+    <string name="create_room">创建房间</string>
+    <string name="player_name">玩家名字</string>
+    <string name="confirm_create">确定创建</string>
+    <string name="waiting_room">等待房间</string>
+    <string name="start_game">开始游戏</string>
+    <string name="chat">聊天</string>
+    <string name="room_name">房间名</string>
+    <string name="password_not_necessary">密码（非必填）</string>
+</resources>
