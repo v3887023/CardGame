@@ -1,4 +1,4 @@
-package com.example.cardgame.utils
+package com.zcx.cardgame.utils
 
 import android.graphics.Rect
 import android.graphics.drawable.Drawable

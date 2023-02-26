@@ -1,4 +1,4 @@
-package com.example.cardgame.base
+package com.zcx.cardgame.base
 
 import android.os.Bundle
 import android.view.WindowManager

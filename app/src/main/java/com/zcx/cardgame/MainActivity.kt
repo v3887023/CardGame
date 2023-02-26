@@ -1,7 +1,7 @@
-package com.example.cardgame
+package com.zcx.cardgame
 
 import android.os.Bundle
-import com.example.cardgame.base.BaseActivity
+import com.zcx.cardgame.base.BaseActivity
 
 class MainActivity : BaseActivity() {
     override val layoutId = R.layout.activity_main

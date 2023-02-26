@@ -1,4 +1,4 @@
-package com.example.cardgame.base
+package com.zcx.cardgame.base
 
 import android.app.Activity
 import android.content.Context
@@ -10,8 +10,8 @@ import android.view.WindowManager
 import androidx.annotation.IdRes
 import androidx.annotation.StringRes
 import androidx.fragment.app.Fragment
-import com.example.cardgame.utils.MainHandler
-import com.example.cardgame.utils.toast
+import com.zcx.cardgame.utils.MainHandler
+import com.zcx.cardgame.utils.toast
 
 abstract class BaseFragment : Fragment() {
     private var activity: Activity? = null

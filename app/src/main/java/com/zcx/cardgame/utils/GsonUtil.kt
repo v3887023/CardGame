@@ -1,4 +1,4 @@
-package com.example.cardgame.utils
+package com.zcx.cardgame.utils
 
 import com.google.gson.Gson
 

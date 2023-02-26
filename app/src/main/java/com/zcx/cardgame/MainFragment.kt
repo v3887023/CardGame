@@ -1,13 +1,18 @@
-package com.example.cardgame
+package com.zcx.cardgame
 
 import android.view.View
-import com.example.cardgame.base.BaseFragment
-import kotlinx.android.synthetic.main.fragment_main.*
+import android.widget.Button
+import com.zcx.cardgame.base.BaseFragment
 
 class MainFragment : BaseFragment(), View.OnClickListener {
+    private lateinit var wanButton: Button
+    private lateinit var wlanButton: Button
+
     override val layoutId = R.layout.fragment_main
 
     override fun intViews() {
+        wanButton = findViewById(R.id.toolbar)
+        wlanButton = findViewById(R.id.actionButton)
         wanButton.setOnClickListener(this)
         wlanButton.setOnClickListener(this)
     }

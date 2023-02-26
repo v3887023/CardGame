@@ -1,4 +1,4 @@
-package com.example.cardgame
+package com.zcx.cardgame
 
 import com.chad.library.adapter.base.BaseQuickAdapter
 import com.chad.library.adapter.base.BaseViewHolder

@@ -1,8 +1,8 @@
-package com.example.cardgame.utils
+package com.zcx.cardgame.utils
 
 import android.content.Context
 import android.widget.Toast
-import com.example.cardgame.utils.MainHandler.runOnUiThread
+import com.zcx.cardgame.utils.MainHandler.runOnUiThread
 
 fun CharSequence.toast(context: Context) {
     runOnUiThread { Toast.makeText(context, this, Toast.LENGTH_SHORT).show() }

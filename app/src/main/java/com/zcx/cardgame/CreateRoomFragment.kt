@@ -1,13 +1,19 @@
-package com.example.cardgame
+package com.zcx.cardgame
 
 import android.view.View
-import com.example.cardgame.base.BaseFragment
-import kotlinx.android.synthetic.main.fragment_create_room.*
+import android.widget.Button
+import androidx.appcompat.widget.Toolbar
+import com.zcx.cardgame.base.BaseFragment
 
 class CreateRoomFragment : BaseFragment(), View.OnClickListener {
-    override val layoutId = R.layout.fragment_create_room
+    private lateinit var toolbar: Toolbar
+    private lateinit var confirmCreateButton: Button
 
+    override val layoutId = R.layout.fragment_create_room
     override fun intViews() {
+        toolbar = findViewById(R.id.toolbar)
+        confirmCreateButton = findViewById(R.id.actionButton)
+
         toolbar.setNavigationOnClickListener { onBackPressed() }
         confirmCreateButton.setOnClickListener(this)
     }
